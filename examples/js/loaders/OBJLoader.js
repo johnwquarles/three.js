@@ -223,7 +223,7 @@ THREE.OBJLoader.prototype = {
 
 		var lines = text.split( '\n' );
 
-		for ( var i = 0; i < lines.length; i ++ ) {
+		for ( var i = 0, l = lines.length; i < l; i ++ ) {
 
 			var line = lines[ i ];
 			line = line.trim();
